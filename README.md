@@ -1,17 +1,46 @@
 # Personal-Finance-Tracker
-Personal Finance Tracker is a straightforward, menu-driven Python project that keeps track of your income, expenses, and savings realistically.  It writes all records to a CSV file, so you won't lose any of your financial information when you close the application. 
 
-🌟 Features
-1. Add Transactions - Easily add new income and expense entries.
-2. Check Balance - The system will automatically calculate and display your balance after every transaction.
-3. View History - You can view a list of all your transactions along with their transactions details.
-4. Easy Menu - The menu is easy to use and you can navigate your personal finance history with ease.
+This project uses Linked Lists and Stacks data structures to create a menu-driven simulation of a Personal Finance Tracker. Users can record daily income and expenses, view transaction history, analyze spending, and undo recent financial entries in real time.
 
+This Python application demonstrates how data structures can be applied to real-world financial management systems. A linked list is used to dynamically store transactions without fixed size limitations, while a stack enables undo functionality similar to modern finance apps. The system also tracks timestamps and calculates balances automatically, providing a practical example of managing financial data efficiently.
 
-🚀 How to Execute
-1. Save it : Save the following Python code as personal_finance_tracker.py.
-2. Open your terminal : Now navigate to the directory where you've saved the file.
-3. Run the application : Run the application using the following command line and the Python interpreter:
+**Features**
 
+Dynamic Transaction Storage:
+A linked list stores income and expense records dynamically.
+
+Income & Expense Management:
+Users can add transactions with category, amount, and description.
+
+Automatic Balance Calculation:
+The program updates and displays current balance after every transaction.
+
+Undo Last Transaction:
+A stack allows reversing the most recent entry.
+
+Transaction History:
+Displays all financial records in chronological order.
+
+Timestamp Tracking:
+Each transaction stores real-time date and time.
+
+Real-World Simulation:
+Works similar to a basic digital expense tracking application.
+
+**Data Structures Used**
+
+Linked List → Store transactions dynamically
+
+Stack → Undo recent transactions
+
+**How To Run**
+
+Save the file as:
+
+personal_finance_tracker.py
+
+Open terminal in that folder.
+
+Run:
 
 python personal_finance_tracker.py
